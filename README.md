@@ -29,8 +29,8 @@ This is an implementation of modbus protocol in serial communication using STM32
    * Implementation of the master:
      - Configure one UART module, two timers and two ports as digital outputs.
      - Declare a variable of the type structure MBHandler.
-    - Call InitMBMaster function.
-    - Implement callback functions of the UART and TIMER module.
+     - Call InitMBMaster function.
+     - Implement callback functions of the UART and TIMER module.
       (at this time the unit can be seen as modbus master unit and by calling functions in the 
       library you can read or write data in slave unit)
         
